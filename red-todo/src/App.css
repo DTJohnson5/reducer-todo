@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.addTask, .removeTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 175px;
+  font-family: 'Courgette', cursive;
+  font-size: 18px;
+  background: linear-gradient(to right, dodgerblue 10%, #000000 50%, dodgerblue 90%);
+}
+
+.addTask {
+  color: green;
+  font-weight: bold;
+}
+
+.removeTask {
+  color: red;
+  font-weight: bold;
+}
+
+.todo {
+  font-family: 'Courgette', cursive;
+  font-size: 24px;
+  color: blue;
+}
+
+input {
+  text-align: center;
+  width: 250px;
+  height: 30px;
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 44px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #D3D3D3 20%, dodgerblue 50%, #D3D3D3 80%);
+  color: yellow;
+}
